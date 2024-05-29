@@ -1,0 +1,27 @@
+.ant-menu-light.ant-menu-root.ant-menu-inline {
+  border-inline-end: none !important;
+}
+
+.ant-menu-horizontal {
+  border: none !important;
+}
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-active::after {
+  border-bottom: none !important;
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+.ant-select-selector {
+  border: 0 !important;
+}
+
+.ant-picker-suffix {
+  color: rgba(161, 168, 187, 255) !important;
+}
+
+.ant-select-arrow {
+  color: rgba(161, 168, 187, 255) !important;
+}

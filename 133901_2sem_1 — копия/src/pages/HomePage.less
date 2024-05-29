@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f7;
+    color: #333;
+  }
+  
+  /* Стилизация формы */
+  .ant-form-vertical.ant-form-item-label > label {
+    font-weight: 500;
+    color: #ff6347;
+  }
+  
+  .ant-form-vertical.ant-input,
+  .ant-form-vertical.ant-input-password {
+    border-radius: 12px;
+    border: 2px solid #ff6347;
+    background-color: #fff;
+    transition: border-color 0.3s ease; /* Добавляем анимацию для границы */
+  }
+  
+  .ant-btn-primary {
+    background-color: #ff6347;
+    border-color: #ff6347;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Анимация для кнопки */
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #ff4500;
+    border-color: #ff4500;
+    transform: translateY(-2px); /* Смещение кнопки вниз при наведении */
+  }
+  
+  .ant-btn-primary:active {
+    transform: translateY(0); /* Вернем кнопку обратно в исходное положение после клика */
+  }
+  
+  /* Стилизация контейнера */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
